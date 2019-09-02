@@ -1,0 +1,95 @@
+/* background. */
+body {
+    background-color:maroon;
+    color:beige
+}
+
+/*thing above nav bar */
+/* bkgrd image is mine */
+.header {
+  padding: 200px; /* spacing */
+  text-align: center; /* format */
+  background: #C28285; /* dusty rose */
+  color: #FFDEAD; /* navajo white */
+  background-image: url(Images/IMG_4478.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/*font size of the <h1> element of thing above nav bar */
+.header h1 {
+  font-size: 30px;
+}
+
+/* NAV BAR NAV BAR NAV BAR NAV BAR NAV BAR below header of pages */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #800000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: navajowhite;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #000;
+}
+
+.active {
+  background-color: #CD853F;
+}   
+
+/* for images on index page (for now, unless i add images elsewhere*/
+img {
+transform:rotate(90deg);
+    }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}    
+
+figure figcaption {
+    text-align: center;
+    
+}
+
+/*text @ bottom ng index page*/
+span{
+    text-align: center;
+}
+
+.blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #F5F5DC;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #F5F5DC;    }
+}
+
+/* lol */
+a:visited {
+    color:beige;
+}
+
+
+
+
+
+
