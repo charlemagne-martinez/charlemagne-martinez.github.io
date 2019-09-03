@@ -50,10 +50,6 @@ li a:hover:not(.active) {
   background-color: #CD853F;
 }   
 
-/* for images on index page (for now, unless i add images elsewhere*/
-img {
-transform:rotate(90deg);
-    }
 
 .center {
   display: block;
